@@ -265,7 +265,7 @@
 
 
     <!-- ======= Counter Section ======= -->
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(/assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
         <div class="row">
@@ -336,9 +336,9 @@
         <m class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="/assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                  <img src="/assets/img/work-1.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -359,9 +359,9 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="/assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                  <img src="/assets/img/work-2.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -371,7 +371,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a target="_blank" href="blog.html"> <span class="bi bi-plus-circle"></span></a>
+                      <a target="_blank" href="<?php echo base_url(); ?>pages/blog"> <span class="bi bi-plus-circle"></span></a>
                     </div>
                   </div>
                 </div>
@@ -380,9 +380,9 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="/assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                  <img src="/assets/img/work-4.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -407,7 +407,7 @@
 
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/work-6.jpg)">
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/assets/img/work-6.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -471,15 +471,15 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
   </body>
 
