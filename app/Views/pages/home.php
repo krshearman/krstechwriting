@@ -45,7 +45,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#roles">Roles</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a target="_blank" class="nav-link scrollto" href="<?php echo base_url(); ?>pages/blog">Blog</a></li>
+          <li><a target="_blank" class="nav-link scrollto" href="<?php echo base_url(); ?>pages/blog">Samples</a></li>
           <!--<li><a class="nav-link scrollto " href="#work">Work</a></li>
           <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>

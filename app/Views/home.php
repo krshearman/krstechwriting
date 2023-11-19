@@ -18,13 +18,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css?version=1" rel="stylesheet">
+    <link href="/assets/css/style.css?version=1" rel="stylesheet">
 </head>
 <body>
 
@@ -36,7 +36,7 @@
 
       <!--<h1 class="logo"><a href="index.html">KS</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <i class="fa-solid fa-house"><a href="<?php echo base_url(); ?>" class="logo"><img src="assets/img/house-white.png" alt="" class="img-fluid"></a></i>
+      <i class="fa-solid fa-house"><a href="<?php echo base_url(); ?>" class="logo"><img src="/assets/img/house-white.png" alt="" class="img-fluid"></a></i>
 
 
       <nav id="navbar" class="navbar">
@@ -44,28 +44,15 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#roles">Roles</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a target="_blank" class="nav-link scrollto" href="<?php echo base_url(); ?>pages/blog">Blog</a></li>
-          <!--<li><a class="nav-link scrollto " href="#work">Work</a></li>
-          <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a target="_blank" href="https://github.com/krshearman">Code</a></li>
+              <li><a target="_blank" href="<?php echo base_url(); ?>pages/blog">Writing Samples</a></li>
+              <li><a target="_blank" href="https://www.credly.com/users/kendall-shearman/badges">Certifications</a></li>
+              <li><a target="_blank" href="https://krstechwriting.com/docs/Resume_KendallShearman_2023.pdf">Resume</a></li>
             </ul>
-          </li>-->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -75,7 +62,7 @@
 
   <!-- ======= Hero Section ======= -->
   <!--style="background-image: url(assets/img/hero-bg.jpg)"-->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/techwriting.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(/assets/img/techwriting.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
