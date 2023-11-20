@@ -1,5 +1,5 @@
 <?php
-
+/*
 namespace App\Controllers;
 
 class Blog extends BaseController
@@ -8,4 +8,4 @@ class Blog extends BaseController
     {
         return view('blog');
     }
-}
+}*/

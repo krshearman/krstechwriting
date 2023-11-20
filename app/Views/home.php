@@ -24,11 +24,10 @@
     <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="/assets/css/style.css?version=1" rel="stylesheet">
+    <link href="/assets/css/style.css?version=4" rel="stylesheet">
 </head>
 <body>
 
-<body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -41,7 +40,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#roles">Roles</a></li>
           <li class="dropdown"><a href="#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down"></i></a>
